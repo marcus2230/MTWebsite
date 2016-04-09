@@ -1,0 +1,146 @@
+.navbar-default {
+  background-color: #000000;
+  border-color: #000000; }
+  .navbar-default .navbar-brand {
+    color: #ecf0f1; }
+    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+      color: #f9f9f9; }
+  .navbar-default .navbar-text {
+    color: #ecf0f1; }
+  .navbar-default .navbar-nav > li > a {
+    color: #ecf0f1; }
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+      color: #f9f9f9; }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #f9f9f9;
+    background-color: #000000; }
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #f9f9f9;
+    background-color: #000000; }
+  .navbar-default .navbar-toggle {
+    border-color: #000000; }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+      background-color: #000000; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #ecf0f1; }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: #ecf0f1; }
+  .navbar-default .navbar-link {
+    color: #ecf0f1; }
+    .navbar-default .navbar-link:hover {
+      color: #f9f9f9; }
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #f9f9f9; }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f9f9f9;
+    background-color: #000000; } }
+#body-2 {
+  font-family: "Decanter","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: url("../img/bg-2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-color: black; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white; }
+
+body {
+  background-color: black; }
+
+.body-image {
+  background: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .body-image .logo-front {
+    padding-top: 7%;
+    margin-left: 32%; }
+  .body-image .enter {
+    font-family: "Decanter","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 7%;
+    padding-left: 45%; }
+
+.main-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 300px; }
+
+.about {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 3%;
+  background-color: black;
+  border: 2px white;
+  border-radius: 15px; }
+
+.pic-1 #picture {
+  border: 2px;
+  border-color: white;
+  border-radius: 20px;
+  max-width: 100%;
+  max-height: 100%; }
+
+li {
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+.contact-us {
+  text-align: center; }
+
+.input {
+  border-radius: 10px; }
+  .input .input-float-left {
+    padding-top: 2%;
+    padding-left: 20%;
+    float: left; }
+  .input .name-input {
+    width: 200px; }
+  .input .mail-input {
+    width: 200px; }
+
+.message-div {
+  float: right;
+  padding-right: 30%;
+  float: right;
+  padding-right: 20%; }
+  .message-div .message {
+    overflow: auto;
+    width: 350px;
+    height: 200px; }
+
+.map {
+  padding-top: 25%; }
+
+#button-div .submit {
+  height: 50px;
+  width: 100px; }
+  #button-div .submit h4 {
+    color: #000000;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */

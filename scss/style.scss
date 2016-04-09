@@ -1,0 +1,205 @@
+$bgDefault      : #000000;
+$bgHighlight    : #000000;
+$colDefault     : #ecf0f1;
+$colHighlight   : #f9f9f9;
+$dropDown       : false;
+.navbar-default {
+  background-color: $bgDefault;
+  border-color: $bgHighlight;
+  .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHighlight; }}
+  .navbar-text {
+    color: $colDefault; }
+  .navbar-nav {
+    > li {
+      > a {
+        color: $colDefault;
+        &:hover,  &:focus {
+          color: $colHighlight; }}
+      @if $dropDown {
+        > .dropdown-menu {
+          background-color: $bgDefault;
+          > li {
+            > a {
+              color: $colDefault;
+              &:hover,  &:focus {
+                color: $colHighlight;
+                background-color: $bgHighlight; }}
+            > .divider {
+              background-color: $bgHighlight;}}}}}
+    @if $dropDown {
+      .open .dropdown-menu > .active {
+        > a, > a:hover, > a:focus {
+          color: $colHighlight;
+          background-color: $bgHighlight; }}}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+  .navbar-toggle {
+    border-color: $bgHighlight;
+    &:hover, &:focus {
+      background-color: $bgHighlight; }
+    .icon-bar {
+      background-color: $colDefault; }}
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $colDefault; }
+  .navbar-link {
+    color: $colDefault;
+    &:hover {
+      color: $colHighlight; }}}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+}
+
+#body-2{
+   font-family: "Decanter","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/bg-2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  background-color: black;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 , p {
+   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+   color: white;
+}
+body{
+  background-color: black;
+}
+
+
+
+.body-image {
+     background: url('../img/bg.jpg') ;
+    background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+
+    .logo-front{
+ padding-top: 7%;
+  margin-left: 32%;
+}
+
+
+  .enter {
+     font-family: "Decanter","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+   padding-top: 7%;
+  padding-left: 45%;
+
+}
+
+}
+
+.main-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  height: 200px;
+  width:300px;
+}
+
+.about{padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+ margin-top: 3%;
+  background-color: black;
+  border: 2px white;
+  border-radius: 15px;}
+
+ .pic-1{
+#picture{
+  border: 2px;
+  border-color: white;
+  border-radius: 20px;
+  max-width: 100%;
+  max-height:100%;
+}
+
+}
+
+li{
+   letter-spacing: 2px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.contact-us{
+  text-align: center;
+}
+
+
+
+.input{
+border-radius: 10px;
+
+  .input-float-left{
+    padding-top: 2%;
+    padding-left: 20%;
+    float: left;
+  }
+  .name-input{
+    width: 200px;
+  }
+  .mail-input{
+    width: 200px;
+  }
+
+}
+.message-div{
+      float: right;
+  padding-right: 30%;
+  float: right;
+  padding-right: 20%;
+   .message {
+     overflow: auto;
+   width: 350px;
+      height: 200px;
+  }
+
+}
+.map{ 
+   padding-top: 25%;
+}
+
+#button-div {
+   .submit{
+    height: 50px;
+    width: 100px;
+    h4{color: $bgDefault ;
+      text-transform: uppercase;
+    }
+  }
+}
